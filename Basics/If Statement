@@ -1,0 +1,14 @@
+fn main(){
+  let res = another_function(4);
+  }
+  fn another_function(x:i32) -> bool {
+  if x< 5 {
+  println!("less");
+  return false;
+  } else {
+    println!("more than 5");
+    return true;
+    }
+}
+
+refer rust documentation for nested if else, etc.
