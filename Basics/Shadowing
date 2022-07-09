@@ -4,6 +4,7 @@ fn main(){
   let x = 6;
   println!("{}",x);
 }
-
+/* 
 Note:
 in shadowing concept, we can use two variables with let command.
+*/

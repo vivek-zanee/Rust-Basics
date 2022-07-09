@@ -5,7 +5,7 @@ fn main(){
     let y: i8 = 6;
     println!("{}",y);
 }
-
+/* 
 Notes:
 ! -> macro command
 let x=5 -> declare a variable
@@ -13,6 +13,7 @@ i8 - specific variable type , i-integer
 u64 -> only positive value will be in u
 all codes will be runned btw fn main(){ }
 use ; at the end
+*/
 
 fn main(){
     let mut x = 5;
@@ -21,6 +22,8 @@ fn main(){
     println!("{}",x);
 }
 
+/* 
 mut-> mutable which can be used to change the variable.
 
 const PARTICIPANT_COUNT: i32 = 283;   -> constant declaration
+*/

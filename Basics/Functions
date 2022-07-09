@@ -22,12 +22,13 @@ fn another_function() {
   return mul;   //these are statements
 }
 
-[or]
+// [or]
 
 fn main(){
   let res = another_function(1, 3);
-println!("{},res)'
+  println!("{}",res);
 }
+
 fn another_function(x: i32, y: i32) -> i32 {
   let mul = x * y;
   println!("{}", mul);
