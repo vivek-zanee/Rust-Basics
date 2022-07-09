@@ -14,11 +14,12 @@ u64 -> only positive value will be in u
 all codes will be runned btw fn main(){ }
 use ; at the end
 
-
-let mut x = 5;
-println!("{}",x);
-x = 6;
-println!("{}",x);
+fn main(){
+    let mut x = 5;
+    println!("{}",x);
+    x = 6;
+    println!("{}",x);
+}
 
 mut-> mutable which can be used to change the variable.
 
