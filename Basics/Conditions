@@ -1,0 +1,5 @@
+fn main() {
+  let x = true;
+  let res = if x { "correct" } else { "s" };
+  println!("res {}", res);
+}
