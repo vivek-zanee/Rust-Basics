@@ -1,7 +1,7 @@
 Two Types of Compount Datatype
 
 tuple :-
-let bootcamp_details:  (&str, u64) = ("sample_req", 293);
+let sample_req:  (&str, u64) = ("sample_req", 293);
 println!("{}", sample_req.0);
 
 array :-
