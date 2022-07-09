@@ -1,0 +1,9 @@
+Two Types of Compount Datatype
+
+tuple :-
+let bootcamp_details:  (&str, u64) = ("sample_req", 293);
+println!("{}", sample_req.0);
+
+array :-
+let some_array = [1, 2, 3];
+println!("{}", some_array[0];
