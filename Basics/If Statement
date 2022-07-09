@@ -11,4 +11,4 @@ fn main(){
     }
 }
 
-refer rust documentation for nested if else, etc.
+// refer rust documentation for nested if else, etc.

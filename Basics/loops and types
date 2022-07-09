@@ -1,9 +1,11 @@
+/* 
 loops:
 1. loop -- never ending loop, it will not stop
 2.while
 3.for in loop
+*/
 
-loop:
+// loop:
 fn main() {
   loop {
     println!("never_ending");
@@ -11,7 +13,7 @@ fn main() {
   }
 }
 
-break another usecase:
+// break another usecase:
 fn main() {
     let mut counter = 0;
     let res = loop {
@@ -24,7 +26,7 @@ fn main() {
 println!("never_ending {}",res);
 }
 
-while loop:
+// while loop:
 fn main() {
    let mut counter = 10;
     while counter != 0 {
@@ -33,14 +35,16 @@ fn main() {
     }
 }
 
-for in loop:
+// for in loop:
 fn main() {
    let arr = [1, 23, 4, 56];
    for element in arr.iter() {
     println! ("element {}", element);
   }
 }
-
+/* 
 other ways of writing for in( for element in arr.iter() ) -> for element in (1..6) , if we use .rev() in end it will give reverse way. it will print 1 to 5
 
 to get the last value as well (1..=6) or (1..=6).rev() , it will print 1 to 6
+
+*/
