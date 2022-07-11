@@ -3,8 +3,8 @@ Binding and mutability
 1.
 ```
 fn main() {
-    let x: i32 = 5; // Uninitialized but used, ERROR !
-    let y: i32; // Uninitialized but also unused, only a Warning !
+    let x: i32 = 5; 
+    let y: i32; 
 
     assert_eq!(x, 5);
     println!("Success!");
@@ -97,9 +97,6 @@ fn main() {
     x = 7;
     // Shadowing and re-binding
     let x = x; 
-    
-
-
     let y = 4;
     // Shadowing
     let y = "I can also be bound to text!"; 
@@ -134,10 +131,8 @@ Destructuring
 fn main() {
     let (mut x, y) = (1, 2);
     x += 2;
-
     assert_eq!(x, 3);
     assert_eq!(y, 2);
-
     println!("Success!");
 }
 
@@ -158,7 +153,6 @@ fn main() {
     [.., y] = [1, 2];
     // Fill the blank to make the code work
     assert_eq!([x,y], [3,2]);
-
     println!("Success!");
 } 
 

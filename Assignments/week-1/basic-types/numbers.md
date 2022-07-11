@@ -5,10 +5,7 @@ Integer
  fn main() {
     let x: u32 = 5;
     let mut y: u32 = 5;
-
     y = x;
-    
-
     println!("Success!");
 }
 
@@ -21,7 +18,6 @@ Explanation: Changed the data type of x, i32 -> u32 and removed let z = 10.
 ```
 fn main() {
     let v: u16 = 38_u8 as u16;
-
     println!("Success!");
 }
 
@@ -35,7 +31,6 @@ Explanation: Added u16 in let v line.
 fn main() {
     let x = 5;
     assert_eq!("i32".to_string(),type_of(&x));  // 1
-
     println!("Success!");
 }
 
@@ -53,7 +48,6 @@ Explanation: changed 'u32' -> 'i32' in 1
 fn main() {
     assert_eq!(i8::MAX, 127); 
     assert_eq!(u8::MAX, 255); 
-
     println!("Success!");
 }
 
@@ -81,7 +75,6 @@ Explanation: changed 251_u8 to 247_u8 in v1 and add(251,8) to (119,8) in v2, sin
 fn main() {
     let v = 1_024 + 0xff + 0o77 + 0b1111_1111;
     assert!(v == 1597);
-
     println!("Success!");
 }
 
@@ -111,7 +104,6 @@ Explanation: added f64 in cmnt area to describe its type.
 ```
 fn main() {
     assert!(0.1_f32 +0.2_f32 ==0.3_f32);
-
     println!("Success!");
 }
 
@@ -146,7 +138,6 @@ use std::ops::{Range, RangeInclusive};
 fn main() {
     assert_eq!((1..5), Range{ start: 1, end: 5 });
     assert_eq!((1..=5), RangeInclusive::new(1, 5));
-
     println!("Success!");
 }
 

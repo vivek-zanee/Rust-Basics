@@ -6,9 +6,7 @@ fn main() {
     // Don't modify the following two lines!
     let (x, y) = (1, 2);
     let s = sum(x, y);
-
     assert_eq!(s, 3);
-
     println!("Success!");
 }
 
@@ -28,7 +26,6 @@ fn main() {
    print();
 }
 
-// Replace i32 with another type
 fn print() -> () {
    println!("Success!");
 }
@@ -43,11 +40,9 @@ Explanation: change i32 -> ()
 ```
 fn main() {
     never_return();
-
 }
 
 fn never_return() -> ! {
-    // Implement this function, don't modify the fn signatures
     panic!("What IF")
 }
 
@@ -79,12 +74,8 @@ fn get_option(tp: u8) -> Option<i32> {
             // TODO
         }
     };
-    
-    // Rather than returning a None, we use a diverging function instead
     never_return_fn()
 }
-
-// IMPLEMENT this function in THREE ways
 fn never_return_fn() -> ! {
     panic!()
 }

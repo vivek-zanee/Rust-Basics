@@ -7,13 +7,11 @@ fn main() {
     let y = {
         let x_squared = x * x;
         let x_cube = x_squared * x;
-
-        // This expression will be assigned to `y`
+        
         x_cube + x_squared + x
     };
 
     let z = {
-        // The semicolon suppresses this expression and `()` is assigned to `z`
         2 * x
     };
 
@@ -40,7 +38,6 @@ fn main() {
    };
 
    assert_eq!(v, 3);
-
    println!("Success!");
 }
 
@@ -57,7 +54,6 @@ fn main() {
    };
 
    assert!(v == 3);
-
    println!("Success!");
 }
 
@@ -70,7 +66,6 @@ Explanation: add x in main function
 fn main() {
     let s = sum(1 , 2);
     assert_eq!(s, 3);
-
     println!("Success!");
 }
 
