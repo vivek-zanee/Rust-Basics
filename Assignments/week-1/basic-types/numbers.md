@@ -90,6 +90,8 @@ output: Success!
 Explanation: changed v == 1579 -> 1597 as, if we add the v it will give 1597.
 
 ```
+Floating-Point
+
 7.
 ```
 fn main() {
@@ -118,6 +120,8 @@ output: Success!
 Explanation: added _f32 in the line to get float output.
 
 ```
+Range
+
 9.
 ```
 fn main() {
@@ -151,6 +155,8 @@ output: Success!
 Explanation: Filled with 5 and =5 to complete the code.
 
 ```
+Computations
+
 11.
 ```
 fn main() {
